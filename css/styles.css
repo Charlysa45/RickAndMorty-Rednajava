@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap');
+
+body{
+    margin: 0%;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #830499;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #00ADEE;
+}
+
+header img{
+    height: 130px;
+}
+
+main{
+    max-width: 100%;
+    min-height: 51.2em;
+    margin: auto;
+    background-color: #110B5C;
+    color: rgb(63, 241, 92);
+}
+
+#container{
+    max-width: 90%;
+    margin: auto;
+}
+
+#filters{
+    background-color: #110B5C;
+    display: flex;
+    position: sticky;
+    top: -1px;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+#filters-buttons button{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-weight: bold;
+    background-color: #00b0c8;
+    border-width: 0px;
+    border-radius: 10px;
+    height: 40px;
+    width: 120px;
+    margin-left: 5px;
+    margin-right: 5px;
+    font-size: 18px;
+    transition: 0.2s;
+}
+
+#filters-buttons button:hover{
+    height: 50px;
+    width: 130px;
+    font-size: 21px;
+}
+
+#filters-buttons-btn-all:hover{
+    background-color: #fff;
+}
+
+#filters-buttons-btn-alive:hover{
+    background-color: #62DB4E;
+}
+
+#filters-buttons-btn-death:hover{
+    background-color: #DB000D;
+}
+
+#filters-buttons-btn-unknown:hover{
+    background-color: #9c9c9c;
+}
+
+
+#filters-genders{
+    display: flex;
+}
+
+#filters-genders-male{
+    display: flex;
+    margin-right: 30px;
+    color: #00ADEE;
+}
+
+#filters-genders-female{
+    display: flex;
+    margin-right: 20px;
+    color: #FF6EFF;
+}
+
+.filters-genders-icon{
+    margin-right: 8px;
+}
+
+hr{
+    display: flex;
+    margin: 0%;
+    height: 8px;
+    background: linear-gradient(90deg, rgba(0,176,200,1) 0%, rgba(29,207,0,1) 100%);
+    margin-left: 30px;
+    margin-right: 30px;
+    border-width: 0px;
+    border-radius: 0.60rem;
+}
+
+#characters-container{
+    display: grid;
+    align-items: center;
+    padding: 30px;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.characters-card{
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    background-color: #830499;
+}
+
+.characters-card-img{
+    height: 160px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+.characters-card-content{
+    padding-left: 20px;
+    font-weight: bold;
+}
+
+.characters-card-content div{
+    display: flex;
+    align-items: center;
+}
+
+.characters-card-content p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.status-badge{
+    color: #000;
+    margin-top: 8px;
+    border-radius: 20px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 8px;
+}
+
+.blue-light{
+    color: #00b0c8;
+    margin-right: 5px;
+}
+
+.Alive{
+    background-color: #62DB4E;
+}
+
+.Dead{
+    background-color: #DB000D;
+}
+
+.unknown{
+    background-color: #9c9c9c;
+}
+
+.blue{
+    color: #00ADEE;
+}
+
+.pink{
+    color: #FF6EFF;
+}
+
+
+

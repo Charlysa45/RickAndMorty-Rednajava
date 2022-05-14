@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rick & Morty API</title>
+    <link rel="icon" href="./assets/Page-icon.png">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <script src="https://kit.fontawesome.com/bf217cbac7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img src="./assets/R&MAPi-Logo.png" alt="Rick & Morty Logo">
+    </header>
+    <main>
+        <div id="container">
+            <section id="filters">
+                <div id="filters-buttons">
+                    <button id="filters-buttons-btn-all" onclick="charFilter('all')">All</button>
+                    <button id="filters-buttons-btn-alive" onclick="charFilter('alive')">Alive</button>
+                    <button id="filters-buttons-btn-death" onclick="charFilter('dead')">Death</button>
+                    <button id="filters-buttons-btn-unknown" onclick="charFilter('unknown')">Unknown</button>
+                </div>
+                <div id="filters-genders"> 
+                    <div id="filters-genders-male">
+                        <h1 class="filters-genders-icon"><i class="fa-solid fa-mars"></i></h1>
+                    </div>
+                    <div id="filters-genders-female">
+                        <h1 class="filters-genders-icon"><i class="fa-solid fa-venus"></i></h1>
+                    </div>
+                </div>
+            </section>
+            
+            <hr>
+            
+            <section id="characters">
+                
+            </section>
+        </div>
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
